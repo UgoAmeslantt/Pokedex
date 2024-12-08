@@ -1,0 +1,12 @@
+#header {
+    background-color: rgb(40, 44, 52); /* Fond de toute la page */
+    height: 90px;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

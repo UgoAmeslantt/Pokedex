@@ -1,0 +1,35 @@
+
+
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Égalise les espaces entre les cartes et met la dernière à droite */
+    gap: 20px; /* Espace entre les lignes si flex-wrap est utilisé */
+    padding: 20px;
+}
+
+.pokemon-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title-tile  {
+
+}
+
+
+

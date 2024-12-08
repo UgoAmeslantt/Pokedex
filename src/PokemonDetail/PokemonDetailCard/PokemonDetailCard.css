@@ -1,0 +1,111 @@
+.detail-card {
+    background-color: #f9f9f9; /* Couleur de fond de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre pour la profondeur */
+    padding: 20px; /* Espacement interne */
+    max-width: 90%; /* Largeur maximale de la carte */
+    margin: 20px auto; /* Centrer la carte */
+    display: flex; /* Utiliser flexbox pour la disposition */
+    justify-content: space-between; /* Espacement entre les sections */
+}
+
+.left-section {
+    flex: 1; /* Prendre la même proportion de l'espace disponible */
+    padding-right: 20px; /* Espacement entre les sections */
+    text-align: center; /* Centrer le contenu de la section */
+
+}
+
+.right-section {
+    flex: 1; /* Prendre la même proportion de l'espace disponible */
+}
+
+.sprite-container {
+    margin: 10px 0;
+}
+
+.detail-types {
+    margin-top: 10px;
+}
+.detail-image{
+
+    width : 50%;
+    height : 50%;
+
+}
+.detail-type {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Couleurs spécifiques pour chaque type */
+.detail-type.fire {
+    background-color: #F08030;
+}
+
+.detail-type.water {
+    background-color: #6890F0;
+}
+
+.detail-type.grass {
+    background-color: #78C850;
+}
+
+.detail-type.electric {
+    background-color: #F8D030;
+}
+
+.detail-type.ice {
+    background-color: #98D8D8;
+}
+
+.detail-type.fighting {
+    background-color: #C03028;
+}
+
+.detail-type.poison {
+    background-color: #A040A0;
+}
+
+.detail-type.ground {
+    background-color: #E0C068;
+}
+
+.detail-type.flying {
+    background-color: #A890F0;
+}
+
+.detail-type.psychic {
+    background-color: #F85888;
+}
+
+.detail-type.bug {
+    background-color: #A8B820;
+}
+
+.detail-type.rock {
+    background-color: #B8A038;
+}
+
+.detail-type.ghost {
+    background-color: #705898;
+}
+
+.detail-type.dragon {
+    background-color: #7038F8;
+}
+
+.detail-type.dark {
+    background-color: #705848;
+}
+
+.detail-type.steel {
+    background-color: #B8B8D0;
+}
+
+.detail-type.fairy {
+    background-color: #EE99AC;
+}

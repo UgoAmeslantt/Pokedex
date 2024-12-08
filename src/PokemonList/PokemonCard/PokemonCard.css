@@ -1,0 +1,135 @@
+.pokemon-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.pokemon-name {
+    margin-top: -25px;
+}
+
+.pokemon-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pokemon-number {
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+    align-self: flex-start;
+    position: relative;
+    top: -20px;
+}
+.pokemon-types {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.type {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+.type.normal {
+    background-color: rgba(168, 168, 168, 0.7); /* Gris */
+    border: 2px solid #A8A8A8;
+}
+
+.type.fighting {
+    background-color: rgba(192, 48, 40, 0.7); /* Rouge */
+    border: 2px solid #C02028;
+}
+
+.type.flying {
+    background-color: rgba(168, 144, 240, 0.7); /* Violet clair */
+    border: 2px solid #A890F0;
+}
+
+.type.poison {
+    background-color: rgba(160, 64, 160, 0.7); /* Violet */
+    border: 2px solid #A040A0;
+}
+
+.type.ground {
+    background-color: rgba(224, 192, 104, 0.7); /* Marron clair */
+    border: 2px solid #E0C048;
+}
+
+.type.rock {
+    background-color: rgba(192, 160, 72, 0.7); /* Marron */
+    border: 2px solid #C0A028;
+}
+
+.type.bug {
+    background-color: rgba(168, 184, 32, 0.7); /* Vert insecte */
+    border: 2px solid #A8B828;
+}
+
+.type.ghost {
+    background-color: rgba(112, 88, 152, 0.7); /* Violet sombre */
+    border: 2px solid #705898;
+}
+
+.type.steel {
+    background-color: rgba(192, 192, 208, 0.7); /* Argenté */
+    border: 2px solid #C0C0C0;
+}
+
+.type.fire {
+    background-color: rgba(240, 128, 48, 0.7); /* Orange */
+    border: 2px solid #F08030;
+}
+
+.type.water {
+    background-color: rgba(104, 144, 240, 0.7); /* Bleu */
+    border: 2px solid #6890F0;
+}
+
+.type.grass {
+    background-color: rgba(120, 200, 80, 0.7); /* Vert */
+    border: 2px solid #78C850;
+}
+
+.type.electric {
+    background-color: rgba(248, 208, 48, 0.7); /* Jaune */
+    border: 2px solid #F8D030;
+}
+
+.type.psychic {
+    background-color: rgba(248, 88, 136, 0.7); /* Rose */
+    border: 2px solid #F85888;
+}
+
+.type.ice {
+    background-color: rgba(152, 216, 216, 0.7); /* Bleu clair */
+    border: 2px solid #98D8D8;
+}
+
+.type.dragon {
+    background-color: rgba(112, 56, 248, 0.7); /* Violet profond */
+    border: 2px solid #7800B5;
+}
+
+.type.dark {
+    background-color: rgba(112, 88, 72, 0.7); /* Marron sombre */
+    border: 2px solid #705848;
+}
+
+.type.fairy {
+    background-color: rgba(255, 182, 193, 0.7); /* Rose pâle */
+    border: 2px solid #FFB0B0;
+}
